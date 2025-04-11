@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Manipulação de DOM</title>
+  <!-- Importando CSS externo -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header class="title">
+    <button class="meuBotao" id="alterColor" onclick="alterarCor()">Altere a cor do site</button>
+    <span id="corAtual" style="display: block; margin: 10px 0px 15px 0px; font-weight: bold; color: #fff;">
+      rgb(153, 144, 181)
+    </span>
+  </header>
+  <div class="container">
+    <h1 class="titulo">Olá, Bem vindo!! Integração de HTML, CSS e JavaScript</h1>
+    <div class="card"></div>
+
+    <button class="meuBotao" id="addText" onclick="adicionarTexto()">Adicionar conteúdo</button>
+    <button class="meuBotao" id="clearText" onclick="deletarTexto()">Limpar conteúdo</button>
+
+
+  </div>
+
+  <!-- importando JS externo -->
+  <script src="script.js"></script>
+</body>
+
+</html>

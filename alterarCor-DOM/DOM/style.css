@@ -1,0 +1,73 @@
+@charset  "UTF8";
+
+.invisible{
+  visibility: hidden;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 800px; /* Define um limite para o conteúdo */
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(153, 144, 181);
+  min-height: 100vh;
+  text-align: center;
+  padding: 1rem;
+}
+
+.titulo{
+  color: #000;
+}
+.card {
+  height: 60vh;
+  width: 100%;
+  border: dotted 5px white;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.card p {
+  font-size: 2rem; /* Reduzi um pouco o tamanho */
+  margin: 0;
+  word-break: break-word;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meuBotao{
+  margin-top: 20px;
+  padding: 2%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color:#fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.meuBotao:hover{
+  background-color: rgba(20, 20, 20, 0.721);
+  cursor: pointer;
+}
+
